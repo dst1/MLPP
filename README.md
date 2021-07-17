@@ -1,4 +1,8 @@
-# MLPP
+# MLPP    
+
+Paper: TBD || Data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5111607.svg)](https://doi.org/10.5281/zenodo.5111607)
+
+---------
 
 Code for reproducing the method described in:
 
@@ -37,9 +41,10 @@ This will create a conda enviroment called `MLPP`.
 
 ### Data files:
 
-To run this example one needs to download the associated phylogenetic profiling matrices and other auxillary data which is available on zenodo at: [10.5281/zenodo.5090776](10.5281/zenodo.5090776) 
+To run this example one needs to download the associated phylogenetic profiling matrices and other auxillary data which is available on zenodo at: [10.5281/zenodo.5111607](https://doi.org/10.5281/zenodo.5111607). 
 
 To download the data, please execute the data script in a bash terminal inside the folder of the cloned repo.
+The scripts downloads the data to the current folder. Data total size approximately 1GB.
 
 ```{bash}
 bash retrieve_data.sh
