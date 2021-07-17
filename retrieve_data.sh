@@ -4,8 +4,9 @@
 zenodo_record="https://zenodo.org/api/records/5111607"
 files=$(curl $zenodo_record | jq -r ".files[].links.self")
 
+mkdir -p data
 for file in $files
 do
     echo "Retrieving $(basename $file)"
-    wget $file
+    wget -P data $file
 done
