@@ -1,0 +1,18 @@
+#proj_dir
+proj_dir: XXXXXXXXXXXX
+
+#src folders
+srcD: src/data
+srcM: src/models
+
+#figures folder:
+fig: reports/figures
+
+#n_bins for models_pred
+n_bins: 250
+
+#PU framework
+PU: None
+
+#tuning:
+models: ["in_Reactome", "inReactome_Path", "inGO_path"]

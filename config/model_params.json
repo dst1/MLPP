@@ -1,0 +1,10 @@
+{
+    "LGBM_subsample": 0.5,
+    "LGBM_num_leaves": 128,
+    "LGBM_num_iterations": 200,
+    "LGBM_min_data_in_leaf": 20,
+    "LGBM_colsample_bytree": 0.5,
+    "LGBM_learning_rate": 0.1,
+    "LGBM_bagging_freq": 1, 
+    "LGBM_boosting_type": "rf"
+}

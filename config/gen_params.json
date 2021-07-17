@@ -1,0 +1,17 @@
+{
+    "prop_test": 0.3,
+    "train_size": 0.5,
+    "pos_ratio": 1,
+    "n_splits": 5,
+    "pos_only": false,
+    "npp_path": "data/phylogenetic_profile.tsv",
+    "clades_path": "data/clades.json",
+    "min_clade_size": 20,
+    "scale": false,
+    "index_path": "data/gene_list.txt",
+    "bitscore_threshold": 60,
+    "blastp_hdf": "data/paralogs_by_blast_bitscore.hdf",
+    "bitscore_mat": "data/blast_bitscores.hdf",
+    "feats": [],
+    "func": "cov"
+}
