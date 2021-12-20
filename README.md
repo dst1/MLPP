@@ -1,6 +1,7 @@
 # MLPP    
 
-Paper: TBD || Data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5111607.svg)](https://doi.org/10.5281/zenodo.5111607)
+Paper: [https://doi.org/10.1038/s41467-021-26792-w](https://doi.org/10.1038/s41467-021-26792-w)     
+Data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5111607.svg)](https://doi.org/10.5281/zenodo.5111607)
 
 ---------
 
@@ -14,7 +15,16 @@ Doron Stupp, Elad Sharon, Idit Bloch, Marinka Zitnik, Or Zuk, Yuval Tabach*
 
 Citation:
 ```{bibtex}
-will be added after publication
+@article{stupp2021co,
+  title={Co-evolution based machine-learning for predicting functional interactions between human genes},
+  author={Stupp, Doron and Sharon, Elad and Bloch, Idit and Zitnik, Marinka and Zuk, Or and Tabach, Yuval},
+  journal={Nature communications},
+  volume={12},
+  number={1},
+  pages={1--14},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
 ```
 
 ----------------
@@ -85,5 +95,14 @@ bash run_snakemake.sh
 
 When using the method or predictions described in the paper please cite 
 ```{bibtex}
-will be added after publication
+@article{stupp2021co,
+  title={Co-evolution based machine-learning for predicting functional interactions between human genes},
+  author={Stupp, Doron and Sharon, Elad and Bloch, Idit and Zitnik, Marinka and Zuk, Or and Tabach, Yuval},
+  journal={Nature communications},
+  volume={12},
+  number={1},
+  pages={1--14},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
 ```
